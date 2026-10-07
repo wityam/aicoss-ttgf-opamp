@@ -1,0 +1,65 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1791371398
+<< pwell >>
+rect 430 -1040 3380 1760
+<< psubdiff >>
+rect 454 1690 3356 1736
+rect 454 1550 749 1690
+rect 3051 1550 3356 1690
+rect 454 1504 3356 1550
+rect 454 1417 686 1504
+rect 454 -697 500 1417
+rect 640 -697 686 1417
+rect 454 -784 686 -697
+rect 3124 1469 3356 1504
+rect 3124 -739 3170 1469
+rect 3310 -739 3356 1469
+rect 3124 -784 3356 -739
+rect 454 -830 3356 -784
+rect 454 -970 754 -830
+rect 3056 -970 3356 -830
+rect 454 -1016 3356 -970
+<< psubdiffcont >>
+rect 749 1550 3051 1690
+rect 500 -697 640 1417
+rect 3170 -739 3310 1469
+rect 754 -970 3056 -830
+<< metal1 >>
+rect 467 1690 3343 1723
+rect 467 1550 749 1690
+rect 3051 1550 3343 1690
+rect 467 1517 3343 1550
+rect 467 1417 673 1517
+rect 467 -697 500 1417
+rect 640 -697 673 1417
+rect 3137 1469 3343 1517
+rect 940 260 1140 460
+rect 467 -797 673 -697
+rect 3137 -739 3170 1469
+rect 3310 -739 3343 1469
+rect 3137 -797 3343 -739
+rect 467 -830 3343 -797
+rect 467 -970 754 -830
+rect 3056 -970 3343 -830
+rect 467 -1003 3343 -970
+<< metal2 >>
+rect 780 1220 980 1420
+rect 1810 -700 2000 1420
+use day7_opamp_m5half  day7_opamp_m5half_0
+timestamp 1791371398
+transform 1 0 700 0 1 -1140
+box -20 330 2410 1600
+use day7_opamp_m5half  day7_opamp_m5half_1
+timestamp 1791371398
+transform 1 0 700 0 -1 1860
+box -20 330 2410 1600
+<< labels >>
+flabel metal2 s 780 1220 980 1420 0 FreeSans 2000 0 0 0 D5
+port 1 nsew
+flabel metal1 s 940 260 1140 460 0 FreeSans 2000 0 0 0 G5
+port 2 nsew
+flabel metal1 s 630 -837 670 -797 0 FreeSans 2000 0 0 0 VSS
+port 3 nsew
+<< end >>

@@ -1,0 +1,5 @@
+export PDK_ROOT=$HOME/pdk
+export PDK=gf180mcuC
+export KLAYOUT_PATH=$HOME/.klayout:$PDK_ROOT/$PDK/libs.tech/klayout
+export GF_PDK_OPTION=D
+

@@ -1,0 +1,23 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1791371398
+<< metal1 >>
+rect -1440 5370 5660 5720
+rect -1440 2245 -135 5370
+rect 1840 5250 5630 5370
+rect 1030 200 1780 1110
+<< metal2 >>
+rect 190 2365 290 3980
+rect 190 2265 1395 2365
+rect 1295 455 1395 2265
+rect 1095 355 1395 455
+use cs  cs_0
+timestamp 1791371398
+transform 1 0 -2175 0 1 -1360
+box 710 1555 3370 3670
+use tut_opamp3  tut_opamp3_0
+timestamp 1791371398
+transform 1 0 -9200 0 1 360
+box 9190 -365 18290 4931
+<< end >>
